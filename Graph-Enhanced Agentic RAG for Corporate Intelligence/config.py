@@ -12,7 +12,7 @@ class Config:
     
     # Model Configuration
     LLAMA_MODEL_NAME = "llama3.2"  # Llama 3.2 via Ollama
-    GEMMA_API_KEY = os.getenv("GEMMA_API_KEY", "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")
+    GEMMA_API_KEY = os.getenv("GEMMA_API_KEY", ")
     EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"  # Fast embedding model
     
     # Database Configuration
